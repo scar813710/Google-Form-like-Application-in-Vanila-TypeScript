@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Form Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="nav">
+            <button id="createFormBtn">Create New Form</button>
+            <button id="viewFormsBtn">View Forms</button>
+        </nav>
+
+        <div id="formBuilder" class="hidden">
+            <h2>Create Form</h2>
+            <div class="form-header">
+                <input type="text" id="formTitle" placeholder="Form Title" class="title-input">
+            </div>
+            <div id="formFields"></div>
+            <div class="form-actions">
+                <button id="addFieldBtn">Add Field</button>
+                <button id="saveFormBtn">Save Form</button>
+            </div>
+        </div>
+
+        <div id="formsList" class="hidden">
+            <h2>Your Forms</h2>
+            <div id="formsContainer"></div>
+        </div>
+
+        <div id="formPreview" class="hidden">
+            <h2>Form Preview</h2>
+            <div id="previewContainer"></div>
+            <button id="submitFormBtn">Submit</button>
+        </div>
+
+        <div id="formResponses" class="hidden">
+            <h2>Form Responses</h2>
+            <div id="responsesContainer"></div>
+        </div>
+    </div>
+
+    <script type="module" src="/src/types.ts"></script>
+    <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
