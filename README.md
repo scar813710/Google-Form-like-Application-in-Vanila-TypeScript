@@ -6,7 +6,6 @@ This project is a lightweight, Google Form-like application built using **Vanill
 
 - Create, edit, and delete custom forms
 - Add multiple input field types (text, radio, checkbox, etc.)
-- Export form responses to **CSV**
 - Clean and user-friendly UI
 - Built with TypeScript, HTML, and CSS (no frameworks)
 
